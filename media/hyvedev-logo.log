@@ -1,0 +1,266 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.2.27)  22 MAR 2014 17:05
+entering extended mode
+**hyvedev-logo.tex
+(F:\src\hyvedev\docs\media\hyvedev-logo.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls"
+Document Class: scrartcl 2012/07/29 v3.11b KOMA-Script document class (article)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
+Package: scrkbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
+Package: scrbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
+Package: scrlfile 2012/06/15 v3.12 KOMA-Script package (loading files)
+
+Package scrlfile, 2012/06/15 v3.12 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) ("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty"
+Package: tocbasic 2012/04/04 v3.10b KOMA-Script package (handling toc-files)
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 115.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 116.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 117.
+Package scrartcl Info: You've used obsolete option `11pt'.
+(scrartcl)             \KOMAExecuteOptions{fontsize=11pt} will be
+(scrartcl)             used instead.
+(scrartcl)             You may simply replace `11pt'
+(scrartcl)             by `fontsize=11pt'.
+Class scrartcl Info: File `scrsize11pt.clo' used to setup font sizes on input l
+ine 1267.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrsize11pt.clo"
+File: scrsize11pt.clo 2012/07/29 v3.11b KOMA-Script font size class option (11p
+t)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\typearea.sty"
+Package: typearea 2012/07/29 v3.11b KOMA-Script package (type area)
+
+Package typearea, 2012/07/29 v3.11b KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip41
+\ta@div=\count79
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 17.3562pt
+(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.60002pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1213.
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\abovecaptionskip=\skip45
+\belowcaptionskip=\skip46
+\c@pti@nb@sid@b@x=\box26
+\c@figure=\count86
+\c@table=\count87
+\bibindent=\dimen102
+){C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}{C:/Program Files/MiKTeX 2
+.9/fonts/map/dvips/lato/lato.map}
+("C:\Program Files\MiKTeX 2.9\tex\latex\lato\lato.sty"
+Package: lato 2011/08/06 Lato
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\slantsc\slantsc.sty"
+Package: slantsc 2012/01/01 v2.11 Provide Slanted an Italic Small Caps
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+LaTeX Info: Redefining \upshape on input line 35.
+LaTeX Info: Redefining \slshape on input line 45.
+LaTeX Info: Redefining \itshape on input line 55.
+LaTeX Info: Redefining \scshape on input line 65.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
+\Gm@bindingoffset=\dimen105
+\Gm@wd@mp=\dimen106
+\Gm@odd@mp=\dimen107
+\Gm@even@mp=\dimen108
+\Gm@layoutwidth=\dimen109
+\Gm@layoutheight=\dimen110
+\Gm@layouthoffset=\dimen111
+\Gm@layoutvoffset=\dimen112
+\Gm@dimlist=\toks15
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+(F:\src\hyvedev\docs\media\hyvedev-logo.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Try loading font information for OT1+fla on input line 8.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lato\ot1fla.fd"
+File: ot1fla.fd 2011/12/25 Fontinst v1.933 font definitions for OT1/fla.
+)
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count92
+\scratchdimen=\dimen113
+\scratchbox=\box27
+\nofMPsegments=\count93
+\nofMParguments=\count94
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count95
+\MPscratchDim=\dimen114
+\MPnumerator=\count96
+\makeMPintoPDFobject=\count97
+\everyMPtoPDFconversion=\toks17
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(0.0pt, 126.47249pt, 0.0pt)
+* v-part:(T,H,B)=(0.0pt, 126.47249pt, 0.0pt)
+* \paperwidth=126.47249pt
+* \paperheight=126.47249pt
+* \textwidth=126.47249pt
+* \textheight=126.47249pt
+* \oddsidemargin=-72.26999pt
+* \evensidemargin=-72.26999pt
+* \topmargin=-109.67pt
+* \headheight=17.0pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=47.60002pt
+* \marginparwidth=59.7508pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<hyvedev-logo-icon.pdf, id=1, 301.125pt x 301.125pt>
+File: hyvedev-logo-icon.pdf Graphic file (type pdf)
+
+<use hyvedev-logo-icon.pdf>
+Package pdftex.def Info: hyvedev-logo-icon.pdf used on input line 10.
+(pdftex.def)             Requested size: 101.17838pt x 101.1773pt.
+ [1
+
+ <F:/src/hyvedev/docs/media/hyvedev-logo-icon.pdf>] (F:\src\hyvedev\docs\media\
+hyvedev-logo.aux) ) 
+Here is how much of TeX's memory you used:
+ 2806 strings out of 493921
+ 42087 string characters out of 3147282
+ 122784 words of memory out of 3000000
+ 6099 multiletter control sequences out of 15000+200000
+ 9434 words of font info for 20 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 35i,4n,36p,296b,173s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lato/lato-01.en
+c}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lato/Lato-Lig.pfb>
+Output written on hyvedev-logo.pdf (1 page, 56175 bytes).
+PDF statistics:
+ 37 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+

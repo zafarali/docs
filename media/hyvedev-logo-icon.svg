@@ -3,19 +3,14 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
-<polygon opacity="0.6" fill="#C4B81B" enable-background="new    " points="229.847,42.23 235.694,9.273 268.652,3.424 
-	295.761,30.533 289.913,63.491 256.954,69.337 "/>
-<polygon opacity="0.6" fill="#FCEA10" enable-background="new    " points="148.186,107.678 163.304,49.24 221.741,34.125 
-	265.062,77.444 249.942,135.882 191.507,150.999 "/>
-<polygon opacity="0.6" fill="#FCEA10" enable-background="new    " points="61.313,186.947 87.104,110.236 163.817,84.443 
-	214.74,135.367 188.947,212.081 112.235,237.871 "/>
-<g opacity="0.6">
-	<path fill="#FCEA10" d="M225.147,140.631l-94.824,37.658l-38.836,38.834l-10.152-10.152l38.542-38.538l38.676-94.394l11.543,11.542
-		l-28.084,66.881c-0.345,0.826-1.792,3.68-4.334,8.563l0.182,0.183c2.061-1.26,4.978-2.644,8.744-4.154l67.786-27.177
-		L225.147,140.631z"/>
-</g>
-<polygon opacity="0.6" fill="#C4B81B" enable-background="new    " points="4.239,163.537 15.464,135.666 145.325,69.338 
-	215.816,64.668 75.824,184.36 33.325,196.86 "/>
-<polygon opacity="0.6" fill="#C4B81B" enable-background="new    " points="103.955,267.49 116.456,224.991 236.147,84.999 
-	231.478,155.49 165.149,285.352 137.278,296.576 "/>
+<polygon opacity="0.8" fill="#FFDD04" enable-background="new    " points="63.606,182.14 82.856,107.734 157.26,88.489 
+	212.418,143.646 193.166,218.052 118.764,237.298 "/>
+<polygon opacity="0.8" fill="#FFDD04" enable-background="new    " points="228.135,47.633 233.396,17.966 263.066,12.701 
+	287.469,37.104 282.204,66.772 252.535,72.035 "/>
+<polygon opacity="0.8" fill="#FFDD04" enable-background="new    " points="156.039,105.133 169.648,52.529 222.252,38.922 
+	261.249,77.918 247.638,130.522 195.035,144.129 "/>
+<polygon opacity="0.8" fill="#BACFED" enable-background="new    " points="12.532,148.581 23.971,120.18 156.303,52.59 
+	228.135,47.833 85.479,169.804 42.173,182.538 "/>
+<polygon opacity="0.8" fill="#BACFED" enable-background="new    " points="118.167,257.706 130.885,214.466 252.663,72.035 
+	247.914,143.752 180.429,275.88 152.07,287.3 "/>
 </svg>

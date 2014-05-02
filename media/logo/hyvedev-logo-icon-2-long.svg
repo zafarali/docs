@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+<polygon opacity="0.7" fill="#FEDF00" points="185.622,113.63 190.702,94.673 209.657,89.594 223.533,103.471 218.454,122.425 
+	199.499,127.506 "/>
+<polygon opacity="0.7" fill="#D3D327" points="109.425,177.884 121.833,146.5 155.481,133.069 179.955,157.524 166.166,190.833 
+	135.047,203.506 "/>
+<polygon opacity="0.7" fill="#D3D327" points="152.455,140.438 162.833,115.167 179.955,108.457 196.043,114.289 199.209,117.454 
+	205.025,133.069 198.166,150 172.587,160.568 "/>
+<g id="Wings">
+	<polygon opacity="0.8" fill="#98CD7A" enable-background="new    " points="89.833,150 105.5,137.162 179.955,108.457 
+		196.044,114.29 136.833,171.828 83.166,171.828 	"/>
+</g>
+<g display="none">
+	
+		<polygon display="inline" opacity="0.7" fill="none" stroke="#941A1D" stroke-miterlimit="10" stroke-dasharray="6,3" enable-background="new    " points="
+		99.516,139.688 102.825,127.337 115.177,124.028 124.219,133.07 120.909,145.421 108.558,148.73 	"/>
+	
+		<polygon display="inline" opacity="0.7" fill="none" stroke="#50130D" stroke-miterlimit="10" enable-background="new    " points="
+		120.938,145.45 124.248,133.098 136.6,129.789 145.643,138.831 142.333,151.184 129.98,154.493 	"/>
+	
+		<polygon display="inline" opacity="0.7" fill="none" stroke="#391211" stroke-miterlimit="10" enable-background="new    " points="
+		105.278,161.109 108.589,148.758 120.94,145.448 129.983,154.49 126.673,166.842 114.321,170.152 	"/>
+	
+		<polygon display="inline" opacity="0.7" fill="none" stroke="#231F20" stroke-miterlimit="10" enable-background="new    " points="
+		111.011,182.503 114.321,170.15 126.672,166.842 135.715,175.884 132.405,188.234 120.053,191.546 	"/>
+	<g display="inline" opacity="0.7">
+		<g>
+			<polyline fill="none" stroke="#BE1622" stroke-miterlimit="10" points="117.298,126.148 115.177,124.026 115.953,121.128 			"/>
+			<polyline fill="none" stroke="#BE1622" stroke-miterlimit="10" points="117.71,114.573 118.487,111.675 121.385,110.898 			"/>
+			<polyline fill="none" stroke="#BE1622" stroke-miterlimit="10" points="127.94,109.142 130.838,108.365 132.959,110.486 			"/>
+			<polyline fill="none" stroke="#BE1622" stroke-miterlimit="10" points="137.759,115.287 139.88,117.408 139.104,120.306 			"/>
+			<polyline fill="none" stroke="#501210" stroke-miterlimit="10" points="137.348,126.861 136.571,129.759 133.673,130.536 			"/>
+			<polyline fill="none" stroke="#68100D" stroke-miterlimit="10" points="127.117,132.293 124.219,133.069 122.098,130.948 			"/>
+		</g>
+	</g>
+	
+		<polygon display="inline" opacity="0.7" fill="none" stroke="#BE1622" stroke-miterlimit="10" stroke-dasharray="3,3" enable-background="new    " points="
+		93.472,118.507 96.782,106.155 109.134,102.846 118.177,111.888 114.866,124.24 102.515,127.55 	"/>
+	
+		<polygon display="inline" opacity="0.7" fill="none" stroke="#BE1622" stroke-miterlimit="10" stroke-dasharray="3,6" enable-background="new    " points="
+		77.813,134.167 81.123,121.815 93.475,118.505 102.517,127.547 99.208,139.899 86.855,143.209 	"/>
+	<polygon display="inline" fill="#FFFFFF" points="104.35,128.551 61.046,145.209 24.967,116.037 32.193,70.205 75.497,53.546 
+		111.575,82.719 	"/>
+</g>
+<g display="none">
+	
+		<rect x="188.088" y="105.142" transform="matrix(0.724 -0.6898 0.6898 0.724 -25.5168 166.7957)" display="inline" fill="#E30613" width="15.211" height="20.291"/>
+	
+		<rect x="152.275" y="137.044" transform="matrix(0.7241 -0.6897 0.6897 0.7241 -61.257 152.4283)" display="inline" fill="#E30613" width="15.211" height="31.462"/>
+</g>
+<g id="Wings_1_">
+	<polygon opacity="0.8" fill="#98CD7A" enable-background="new    " points="141.207,229.915 141.207,176.248 198.746,117.037 
+		204.578,133.126 175.873,207.581 163.035,223.248 	"/>
+</g>
+</svg>

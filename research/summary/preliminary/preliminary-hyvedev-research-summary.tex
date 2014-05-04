@@ -110,6 +110,25 @@ annnd.. i'll fill this in as i get to it.
 \end{figure}
 \begin{multicols}{2}
 	
+	\subsection{Hardware}
+	\subsubsection{Arduino}
+		The Arduino is a single-board microcontroller that is generally described as perfect for electronics projects. 
+		The board has exposed I/O pins for use by other circuits or sensors.
+		A simple example of input and output control that the Arduino can do is translating input from a sensor, such as key presses, to outputs, such as a musical note as long as the keyboard and speakers are attached.
+		Arduino can be programmed from a regular computer, connected via a USB port, which acts also a power source.  
+		
+		Some of the main advantages of using Arduino is both its hardware and software are open source and the Arduino software runs on Windows, Mac and Linux, so it can be programmed from almost any operating system.
+		The Arduino community is actively developing and adding to the programming libraries. 
+				
+		It is most suitable for rapid prototyping in research applications, not for industrial scale usage.
+		The simpler programming environment of Arduino can be seen both as an advantage and disadvantage.  
+		It is a lower barrier of entry for non-electrical engineers to program but it does this by adding one layer of abstraction on top of C, which means you don't have control over every bit and byte of the less abstracted controllers.
+		It is also impossible to fully customize the board as it doesn't not allow one to hand-solder components (which at this level, we shouldn't even be considering)
+		Using the Arduino language decreases the portability of the code (not the hardware), so you'd be stuck with Arduino hardware.
+		
+		Overall, the Arduino board is very flexible with low barrier of entry for those just getting in to hardware hacking and lots of examples online.  Though it'd be good to keep in mind that Arduinos are good for small projects and prototyping (i.e. trying things out and experimenting).  As the teams advances and becoming more familiar with microcontrollers and requiring specialized function, the Arduino may not be suitable.
+	
+	
 	\subsection{Software}
 	
 		It is in the software that Hyve is distinguishable.

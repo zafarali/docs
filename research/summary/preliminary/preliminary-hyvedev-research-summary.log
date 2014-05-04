@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.26)  3 MAY 2014 22:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.26)  3 MAY 2014 23:22
 entering extended mode
 **preliminary-hyvedev-research-summary.tex
 
@@ -15,7 +15,7 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(E:\git\hyvedev\docs\research\summary\preliminary\journal-article.tex
+(E:\git\hyvedev\docs\research\summary\preliminary\sleek-journal-article.tex
 ("C:\Program Files\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls"
 Document Class: scrartcl 2012/07/29 v3.11b KOMA-Script document class (article)
 
@@ -1106,19 +1106,27 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
 summary.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 216.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 216.
-Package rerunfilecheck Info: File `preliminary-hyvedev-research-summary.out' ha
-s not changed.
-(rerunfilecheck)             Checksum: 35F30625D7E21FCE8FC3F11A2AB48D5C;1389.
+
+
+Package rerunfilecheck Warning: File `preliminary-hyvedev-research-summary.out'
+ has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `preliminary-hyvedev-research-summar
+y.out':
+(rerunfilecheck)             Before: 35F30625D7E21FCE8FC3F11A2AB48D5C;1389
+(rerunfilecheck)             After:  79773242E823A60471F70CFEE136807F;1445.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 216.
  ) 
 Here is how much of TeX's memory you used:
- 13474 strings out of 493921
- 202720 string characters out of 3147282
- 450109 words of memory out of 3000000
+ 13475 strings out of 493921
+ 202752 string characters out of 3147282
+ 450121 words of memory out of 3000000
  16329 multiletter control sequences out of 15000+200000
  98713 words of font info for 211 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 47i,9n,46p,614b,692s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,9n,46p,614b,694s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}{C:/Program File
 s/MiKTeX 2.9/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}<C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
@@ -1126,10 +1134,10 @@ X 2.9/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
 lic/kpfonts/jkpmn8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/kpfonts
 /jkpmne.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on preliminary-hyvedev-research-summary.pdf (4 pages, 881164 byt
+Output written on preliminary-hyvedev-research-summary.pdf (4 pages, 881280 byt
 es).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
+ 191 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
  41648 words of extra memory for PDF output out of 42996 (max. 10000000)
 

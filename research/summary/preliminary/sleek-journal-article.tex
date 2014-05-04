@@ -28,6 +28,8 @@
 \usepackage[hidelinks, colorlinks=true]{hyperref}
 \usepackage{booktabs, float, paralist, titlesec, abstract, titling, enumitem, graphicx}
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage[flushmargin,hang,multiple]{footmisc}
+\interfootnotelinepenalty=10000
 
 \renewcommand{\abstractnamefont}{\normalfont\large\sffamily}
 \renewcommand{\abstracttextfont}{\normalfont\itshape}
@@ -39,15 +41,6 @@
 \titleformat*{\subparagraph}{\large\bfseries\sffamily}
 
 \setlist[description]{format=\normalfont\itshape}
-
-\title{Automation Team Research Review}
-\author{
-\normalsize
-{ Calem Bendell} \\
-Hyvedev, McGill University \\
-\href{mailto:calem.bendell@mail.mcgill.ca}{calem.bendell@mail.mcgill.ca}
-}
-\date{}
 
 \renewcommand{\maketitle}{\vspace{-5em}\noindent\rule{\linewidth}{1pt}\Huge \vspace{1em} \newline
 \sffamily \scshape \thetitle \\

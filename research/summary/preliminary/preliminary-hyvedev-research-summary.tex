@@ -1,5 +1,14 @@
 \input{sleek-journal-article}
 
+\title{Automation Team Research Review}
+\author{
+\normalsize
+{ Calem Bendell, Shalon Liu} \\
+Hyvedev, McGill University \\
+\href{mailto:calem.bendell@mail.mcgill.ca}{calem.bendell@mail.mcgill.ca}
+}
+\date{}
+
 \begin{document}
 \maketitle
 
@@ -35,7 +44,7 @@ annnd.. i'll fill this in as i get to it.
 
 	\subsection{Decisions Made}
 	
-		The following decisions have been somewhat firmly made:
+		The decisions described in Table \ref{decision-matrix} have already been made to differing degrees of certainty.
 		
 	\subsection{Requested Feedback}
 	
@@ -100,7 +109,25 @@ annnd.. i'll fill this in as i get to it.
 		
 		But really, why choose?
 		We can use both, using the Arduino (or TI Launchpad) to control much of the typical home automation and the Raspberry Pi for controlling satellites.
+	
+	\subsubsection{Arduino}
+	
+		The Arduino is a single-board microcontroller that is generally described as perfect for electronics projects. 
+		The board has exposed I/O pins for use by other circuits or sensors.
+		A simple example of input and output control that the Arduino can do is translating input from a sensor, such as key presses, to outputs, such as a musical note as long as the keyboard and speakers are attached.
+		Arduino can be programmed from a regular computer, connected via a USB port, which acts also a power source.
 		
+		Some of the main advantages of using Arduino is both its hardware and software are open source and the Arduino software runs on Windows, Mac and Linux, so it can be programmed from almost any operating system.
+		The Arduino community is actively developing and adding to the programming libraries. 	
+		It is generally considered most suitable for rapid prototyping in research applications, not for industrial scale usage \footnote{On a slightly subjective note, while some seem to thin the Arduino inappropriate for industrial use, it is not because the Arduino is incapable in any way.  This is because the Arduino lacks some certifications and does not have an industry certified training program for its use, so one cannot find engineers "qualified" to use an Arduino.  Basically, there is no company supporting it from behind supporting the ecosystem of closed systems where everyone gets a piece of the pie, and because managers and human resources are frequently cowards who would prefer their company passes on blame whenever possible to other companies for hardware failures.  The "Programmable logic controller" has this market largely under wrap, with a few other big companies dominating the field.  It's a wasteful, cowardly, ridiculous situation, but it is what people will do to successfully dilute blame.  For a company to use the Arduino, they would have to accept full responsibility for any hardware issues and would also take it upon themselves to ensure they can find engineers who know how to work with the platform, a list that is apparently too frightening for large companies to bother with so they instead endure the steep costs of deeply entrenched solutions. \\ \emph{Calem}}.
+		
+		The simpler programming environment of Arduino can be seen both as an advantage and disadvantage.  
+		It is a lower barrier of entry for non-electrical engineers to program but it does this by adding one layer of abstraction on top of C, which means you don't have control over every bit and byte of the less abstracted controllers.
+		It is also impossible to fully customize the board as it doesn't not allow one to hand-solder components (which at this level, we shouldn't even be considering)
+		Using the Arduino language decreases the portability of the code (not the hardware), so you'd be stuck with Arduino hardware.
+		
+		Overall, the Arduino board is very flexible with low barrier of entry for those just getting in to hardware hacking and lots of examples online.  Though it'd be good to keep in mind that Arduinos are good for small projects and prototyping (i.e. trying things out and experimenting).  As the teams advances and becoming more familiar with microcontrollers and requiring specialized function, the Arduino may not be suitable.
+	
 \end{multicols}
 \begin{figure}
 	\centering
@@ -109,25 +136,6 @@ annnd.. i'll fill this in as i get to it.
 	\label{fig:pi-arduino-beaglebone}
 \end{figure}
 \begin{multicols}{2}
-	
-	\subsection{Hardware}
-	\subsubsection{Arduino}
-		The Arduino is a single-board microcontroller that is generally described as perfect for electronics projects. 
-		The board has exposed I/O pins for use by other circuits or sensors.
-		A simple example of input and output control that the Arduino can do is translating input from a sensor, such as key presses, to outputs, such as a musical note as long as the keyboard and speakers are attached.
-		Arduino can be programmed from a regular computer, connected via a USB port, which acts also a power source.  
-		
-		Some of the main advantages of using Arduino is both its hardware and software are open source and the Arduino software runs on Windows, Mac and Linux, so it can be programmed from almost any operating system.
-		The Arduino community is actively developing and adding to the programming libraries. 
-				
-		It is most suitable for rapid prototyping in research applications, not for industrial scale usage.
-		The simpler programming environment of Arduino can be seen both as an advantage and disadvantage.  
-		It is a lower barrier of entry for non-electrical engineers to program but it does this by adding one layer of abstraction on top of C, which means you don't have control over every bit and byte of the less abstracted controllers.
-		It is also impossible to fully customize the board as it doesn't not allow one to hand-solder components (which at this level, we shouldn't even be considering)
-		Using the Arduino language decreases the portability of the code (not the hardware), so you'd be stuck with Arduino hardware.
-		
-		Overall, the Arduino board is very flexible with low barrier of entry for those just getting in to hardware hacking and lots of examples online.  Though it'd be good to keep in mind that Arduinos are good for small projects and prototyping (i.e. trying things out and experimenting).  As the teams advances and becoming more familiar with microcontrollers and requiring specialized function, the Arduino may not be suitable.
-	
 	
 	\subsection{Software}
 	

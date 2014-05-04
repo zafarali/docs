@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.26)  3 MAY 2014 22:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.26)  3 MAY 2014 22:59
 entering extended mode
 **preliminary-hyvedev-research-summary.tex
 
@@ -1030,7 +1030,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-<gfx/hyvedev-logo.pdf, id=76, 126.4725pt x 126.4725pt>
+<gfx/hyvedev-logo.pdf, id=84, 126.4725pt x 126.4725pt>
 File: gfx/hyvedev-logo.pdf Graphic file (type pdf)
 
 <use gfx/hyvedev-logo.pdf>
@@ -1076,7 +1076,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <E:/git/hyvedev/docs/resea
 rch/summary/preliminary/gfx/hyvedev-logo.pdf>]
-<gfx/pi-arduino-beaglebone.jpg, id=131, 2282.5275pt x 1171.37625pt>
+<gfx/pi-arduino-beaglebone.jpg, id=139, 2282.5275pt x 1171.37625pt>
 File: gfx/pi-arduino-beaglebone.jpg Graphic file (type jpg)
 
 <use gfx/pi-arduino-beaglebone.jpg>
@@ -1087,38 +1087,38 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 137.
  [3 <E:/git/hyvedev/docs/research/summary/preliminary/gfx/pi-arduino-beaglebone
 .jpg>]
-<gfx/heimcontrol.png, id=146, 1008.76875pt x 944.52875pt>
+<gfx/heimcontrol.png, id=154, 1008.76875pt x 944.52875pt>
 File: gfx/heimcontrol.png Graphic file (type png)
 
 <use gfx/heimcontrol.png>
 Package pdftex.def Info: gfx/heimcontrol.png used on input line 183.
 (pdftex.def)             Requested size: 248.76617pt x 232.91765pt.
 
-Overfull \hbox (19.99512pt too wide) in paragraph at lines 183--184
-[][] 
+Overfull \hbox (9.99756pt too wide) in paragraph at lines 183--184
+ [] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
 [4 <E:/git/hyvedev/docs/research/summary/preliminary/gfx/heimcontrol.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
 
 (E:\git\hyvedev\docs\research\summary\preliminary\preliminary-hyvedev-research-
 summary.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 207.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 216.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 216.
 Package rerunfilecheck Info: File `preliminary-hyvedev-research-summary.out' ha
 s not changed.
-(rerunfilecheck)             Checksum: C9F740327D43CE80E85B18CA88A105F7;1235.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 207.
+(rerunfilecheck)             Checksum: 35F30625D7E21FCE8FC3F11A2AB48D5C;1389.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 216.
  ) 
 Here is how much of TeX's memory you used:
- 13469 strings out of 493921
- 202661 string characters out of 3147282
+ 13474 strings out of 493921
+ 202720 string characters out of 3147282
  450109 words of memory out of 3000000
- 16327 multiletter control sequences out of 15000+200000
- 98650 words of font info for 210 fonts, out of 3000000 for 9000
+ 16329 multiletter control sequences out of 15000+200000
+ 98713 words of font info for 211 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 47i,9n,46p,614b,706s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,9n,46p,614b,692s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}{C:/Program File
 s/MiKTeX 2.9/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}<C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
@@ -1126,10 +1126,10 @@ X 2.9/fonts/type1/public/kpfonts/jkpbn8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
 lic/kpfonts/jkpmn8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/kpfonts
 /jkpmne.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on preliminary-hyvedev-research-summary.pdf (4 pages, 879623 byt
+Output written on preliminary-hyvedev-research-summary.pdf (4 pages, 881164 byt
 es).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 41632 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 41648 words of extra memory for PDF output out of 42996 (max. 10000000)
 

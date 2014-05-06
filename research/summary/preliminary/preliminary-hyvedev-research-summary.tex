@@ -79,11 +79,11 @@ annnd.. i'll fill this in as i get to it.
 
 \section{Background}
 
-	\section{Servers and Satellites}
+	\subsection{Servers and Satellites}
 	
-	\section{The Internet of Things}
+	\subsection{The Internet of Things}
 	
-	\section{The DIY Hardware Movements}
+	\subsection{The DIY Hardware Movements}
 
 \section{Research}
 
@@ -110,6 +110,8 @@ annnd.. i'll fill this in as i get to it.
 		But really, why choose?
 		We can use both, using the Arduino (or TI Launchpad) to control much of the typical home automation and the Raspberry Pi for controlling satellites.
 	
+	\subsubsection{Raspberry Pi}
+	
 	\subsubsection{Arduino}
 	
 		The Arduino is a single-board microcontroller that is generally described as perfect for electronics projects. 
@@ -127,9 +129,20 @@ annnd.. i'll fill this in as i get to it.
 		Using the Arduino language decreases the portability of the code (not the hardware), so you'd be stuck with Arduino hardware.
 		
 		Overall, the Arduino board is very flexible with low barrier of entry for those just getting in to hardware hacking and lots of examples online.  Though it'd be good to keep in mind that Arduinos are good for small projects and prototyping (i.e. trying things out and experimenting).  As the teams advances and becoming more familiar with microcontrollers and requiring specialized function, the Arduino may not be suitable.
+		
+	\subsection{Load Balancing}
+	
+	\subsubsection{Specification}
+		
+		HyveOS will control and monitor the house's power usage using custom "appliance boxes." Appliance boxes will have appliances plug into them and will themselves plug into outlets. Each box will output a signal representing how much power the device is drawing, and would take as input a binary signal telling the box to allow the device to draw power (1) or to kill power to the device (0). If the appliances as a whole are drawing more power than the house is allowed (e.g. device A draws 100 Watts, device B draws 100 Watts, but the house can only use 150 Watts for whatever reason), the controller will kill some of the devices and only reactivate them when the total usage drops below a certain threshold. The "boxes" in practice might be built into our house's outlets.
+		
+	\subsubsection{Implementation}
+	
+		The house's main controllers (Raspberry Pis) will need to run threads that can manage the signals to and from the appliance boxes. The signals themselves will need either a wired or wireless communication channel. A wired channel will need wiring to connect to the main controllers' general-purpose I/O (GPIO) pins and possibly circuitry for signal refreshing and electromagnetic shielding. A wireless channel will require wireless transceivers for each appliance box. For ease of prototyping, we will use the Spark Core to receive controller input and transmit power usage output wirelessly, and we will use an open-source relay shield for the Spark Core to switch the appliance's "hot" wire (the wire which carries AC power supply voltage) from ground (if the device ought not draw power) or the box's hot wire.
+		
 	
 \end{multicols}
-\begin{figure}
+\begin{figure}[H]
 	\centering
 	\caption{An Arduino, Raspberry Pi, and Beaglebone from left to right, demonstrating their relative size.  Their absolute size should be inferred by the size of their ports.}
 	\includegraphics[width=.9\textwidth]{gfx/pi-arduino-beaglebone.jpg}
@@ -229,13 +242,11 @@ annnd.. i'll fill this in as i get to it.
 			This program allows you to stream a live feed from the RPi Camera module( or USB webcam ) to a webpage (hosted by the Pi) at a respectable FPS (around 15) . The feed can be accessed by any web browser. The program also allows high-defintion video recording, motion dectection and image capturing. This program can be used for home surveillance purposes. There is currently a prototype built complete with web controlled servos which allows for tilt and pan movements.
 
 			\end{multicols}
-			\begin{figure}
+			\begin{figure}[H]
 				\centering
 				\caption{RPi Camera Web Interface Prototype.}
 				\includegraphics[width=.45\textwidth]{gfx/picam.jpg} \includegraphics[width=.45\textwidth]{gfx/picam2.jpg}
 				\includegraphics[width=0.6\textwidth]{gfx/picam3.jpg}
-				
-				
 				\end{figure}
 			\begin{multicols}{2}
 		
@@ -245,7 +256,6 @@ annnd.. i'll fill this in as i get to it.
 
 	\subsection{Behaviour Modification and Working Toward a Better Society}
 			
-	\subsection{title}
 			
 \section{Cost Analysis}
 
@@ -254,6 +264,15 @@ annnd.. i'll fill this in as i get to it.
 	\subsection{Server}
 	
 	\subsection{Arduino Automation}
+	
+	\subsection{Load Balancing}
+	
+		The following has been assembled as a bill of materials for load balancing. \\
+		\begin{tabular}{r|l}
+			39.00 &	1 Spark Core Wireless \href{https://www.spark.io}{transceiver/microprocessor} \\
+			29.70 & 3  Spark \href{http://oshpark.com/shared_projects/E1XSjK44}{relay/power monitor shields} \\
+			04.00 & jumper wires
+		\end{tabular}
 		
 \section{Conclusion}
 

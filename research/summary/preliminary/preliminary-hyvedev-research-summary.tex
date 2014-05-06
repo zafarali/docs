@@ -127,6 +127,58 @@ annnd.. i'll fill this in as i get to it.
 		Using the Arduino language decreases the portability of the code (not the hardware), so you'd be stuck with Arduino hardware.
 		
 		Overall, the Arduino board is very flexible with low barrier of entry for those just getting in to hardware hacking and lots of examples online.  Though it'd be good to keep in mind that Arduinos are good for small projects and prototyping (i.e. trying things out and experimenting).  As the teams advances and becoming more familiar with microcontrollers and requiring specialized function, the Arduino may not be suitable.
+
+	\subsubsection{Raspberry Pi}
+
+
+		\subsubsection{RPi Camera module}
+
+		The Raspberry Pi Camera Module is an addon for the RPi computer. It is similar to a smart phone camera, with resolution of 5MP. The module connected to the Pi via the decicated CSI connector on the board.
+
+		
+		\begin{center}
+			
+			\includegraphics[width=.2\textwidth]{gfx/RPiCam.jpg}
+		\end{center}
+		
+
+		Technical Specs :
+		\begin{itemize}
+	    	\item Sensor type: OmniVision OV5647[4] 
+	    	\item Color CMOS QSXGA (5-megapixel)
+	    	\item Pixel Count: 2592 x 1944
+	    	\item Lens: f=3.6 mm, f/2.9
+	    	\item Angle of View: 54 x 41 degrees
+	    	\item Field of View: 2.0 x 1.33 m at 2 m
+	    	\item Full-frame SLR lens equivalent: 35 mm
+	    	\item Fixed Focus: 1 m to infinity
+	    	\item Video: 1080p at 30 fps with codec H.264 (AVC)
+	    	\item Up to 90 fps Video at VGA
+	    	\item Board size: 25 x 24 mm (not including flex cable)
+    	\end{itemize}
+ 		As seen from the specs, the FOV of the camera module is quite narrow. However, it is possible to use additional macro/wide/tele adaptor lenses.Two solutions are possible : replace the lens completly (risky, but higher image quality) or use a lens designed for smart phone and attach it in front of the module (safe, some quality loss).The use of a wide angle lens is crucial if we want to use it as a home surveillance tool. Focus is also adjustable, but requires some hacking. 
+
+\end{multicols}
+\begin{figure}
+	\centering
+	\caption{Images taken by the RPi Camera Module (Auto WB, ISO 1600).From left to right : Normal lens,Wide Angle lens,Fisheye lens.}
+	\includegraphics[width=.32\textwidth]{gfx/camcapture/normal.jpg}
+	\includegraphics[width=.32\textwidth]{gfx/camcapture/wideangle.jpg}
+	\includegraphics[width=.32\textwidth]{gfx/camcapture/fisheye.jpg}
+	\label{fig:RPi-Camera-Capture}
+\end{figure}
+\begin{multicols}{2}
+
+ 		The camera has a very good ISO range from 100 up to 1600. High ISO allows the camera to properly expose for low light conditions.
+
+
+
+		The module is supported out of the box by the Raspbian OS and offers both still image capture, called RaspiStill ( up to 2592 x 1900) and video capture called RaspiVid. There are several different modes for video capture, ranging from 640 x 480 at 90FPS to full FOV capture (2592 x 1900 at 15FPS).  There are loads of options for each program which gives us a high customization factor. "Motion" can be enabled through some 3rd party software. Motion is a motion dectection program which is useful if we decides to use this as a surveillance tool.
+
+		3rd party software allows the camera to output to openCV which will allow for face recognition/tracking.
+
+		The camera comes in 2 model, with or without the IR filter. Cameras without the IR filter have better night vision but suffers from poor color rendering ( similar to an infrared security camera). 
+
 	
 \end{multicols}
 \begin{figure}

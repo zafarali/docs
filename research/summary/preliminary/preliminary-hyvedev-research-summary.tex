@@ -110,8 +110,6 @@ annnd.. i'll fill this in as i get to it.
 		But really, why choose?
 		We can use both, using the Arduino (or TI Launchpad) to control much of the typical home automation and the Raspberry Pi for controlling satellites.
 	
-	\subsubsection{Raspberry Pi}
-	
 	\subsubsection{Arduino}
 	
 		The Arduino is a single-board microcontroller that is generally described as perfect for electronics projects. 
@@ -129,7 +127,18 @@ annnd.. i'll fill this in as i get to it.
 		Using the Arduino language decreases the portability of the code (not the hardware), so you'd be stuck with Arduino hardware.
 		
 		Overall, the Arduino board is very flexible with low barrier of entry for those just getting in to hardware hacking and lots of examples online.  Though it'd be good to keep in mind that Arduinos are good for small projects and prototyping (i.e. trying things out and experimenting).  As the teams advances and becoming more familiar with microcontrollers and requiring specialized function, the Arduino may not be suitable.
+
+	\subsubsection{Raspberry Pi}
+		Unlike the Arduino, the Raspberry Pi can be and is a full mini-computer.  It requires and operating system (such as linux) and with an built-in Ethernet port, the Raspberry Pi can be networked without any additional hardware. The Raspberry Pi has a CPU, memory and graphics processor with full 1080p HD outputs via HDMI port. 
 		
+		The Raspberry Pi can do everything an Arduino can, but for many of the electronics projects, Raspberry Pis can be a bit of overkill and makes things more complicated than it needs to be. 
+		Though Arduino and Raspberry Pi serve different needs, it is not necessary to choose either or.  Arduino and Raspberry Pi can work together since the Arduino can be plugged in and programmed from the Pi.
+		
+		One main reason we would use Pi over Arduino is the capturing and processing of visual information, which the Arduino simply cannot process.  As of now, it may be safe to say the Raspberry Pi is the best microprocessor (single board mini-computer) for multimedia processing.
+		A possible downside to Raspberry Pi is that unlike the Arduino, it is based off of a proprietary processor platform.  
+		Certain information about the internal structure of the processor or how the components were put together may not be accessible to the average user.
+		
+	
 	\subsection{Load Balancing}
 	
 	\subsubsection{Specification}

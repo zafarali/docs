@@ -1,4 +1,4 @@
-\input{sleek-journal-article}
+\input{sleek-journal-article.tex}
 
 \title{Automation Team Research Review}
 \author{
@@ -10,19 +10,36 @@ Hyvedev, McGill University \\
 \date{}
 
 \begin{document}
-\maketitle
-
+\twocolumn[\maketitle
+{\large Version 0.2} \\ 
+Edition 0.3 scheduled for release on 09 May 2014.  Primary targets for next edition include editing of all existing writing, expansion of topics, and work towards document cohesion.
 \begin{abstract}
 The automation team has already made the majority of the decisions it needs to make through research and some experimentation.
-This is a summary of progress, research, and decisions made...
-annnd.. i'll fill this in as i get to it.
+The automation team, known as HyveDev outside of the Solar Decathlon context, is exploring loose partnership with Equipmind, Sensorica, 
 \end{abstract}
-
 \begin{center}
-	\includegraphics[width=.3\textwidth]{gfx/hyvedev-logo.pdf}
-\end{center}
+	\includegraphics{gfx/hyvedev-logo.pdf}
+\end{center}]
+\section{Glossay of Terms}
 
-\begin{multicols}{2}
+	\begin{description}
+		\item[HyveDev] HyveDev is the name for the automation team outside of Solar Decathlon.
+		
+		\item[Sensorica] Sensorica is an Open Value Network of multidisciplinary professionals, amateurs, and it is a company with which HyveDev will potentially be working very closely.
+		
+		\item[Equipmind] Equipmind is a company that is undertaking several power management and monitoring projects including behavioural modification experiments similar to the kind HyveDev has been discussing since its inception.  Whereas HyveDev's behaviour modification is inspired by the Venus Project, Equipmind is inspired specifically by energy savings.
+		
+		\item[SensorStacks] SensorStacks is a joint project by Sensorica and Equipmind to provide an easy to use sensor and monitoring system with an online dashboard and freemium analytics.
+		and affiliated research labs, providing sensing and automation solutions.
+		
+		\item[Tactus Technology] Tactus is a human interaction corporation, specialising, as its name may suggest, in tactile feedback.
+		
+		\item[HyveOS/Hyve] The underlying framework onto which sensors and interactions are placed.
+		
+		\item[Server] Computer used as a central hub in the Hyve network, acting as a controller or to process information when more complex calculations are to be performed.
+		
+		\item[Satellite] Computers used as a medium between the server (controller) and sensors (e.g.: cameras, microphones, thermometers). They provide real-time data which can be read, and then interpreted.
+	\end{description}
 
 \section{Introduction}
 
@@ -41,6 +58,15 @@ annnd.. i'll fill this in as i get to it.
 		\item[Hands-Free Operation] enabling people to connect fluidly to the world of data around them through motion tracking systems more accurate than Microsoft's Kinect
 		\item[Community] gently encouraging neighbours to make connections and share with each other
 	\end{description}
+	
+	The way this is accomplished is through the network in Figure \ref{data-summary}.
+	
+	\begin{figure*}
+		\centering
+		\includegraphics[width=.7\textwidth]{gfx/hyvedev-data-summary.pdf}
+		\caption{A description of the hierarchical network employed by HyveOS.}
+		\label{data-summary}
+	\end{figure*}
 
 	\subsection{Decisions Made}
 	
@@ -54,9 +80,7 @@ annnd.. i'll fill this in as i get to it.
 		What feedback we do request is where you see automation fitting in with your part of the house.
 		Also I would like to know whether or not you think HyveOS should increase or decrease the scope of its goals or if you think our goals are misguided.
 
-
-\end{multicols}
-		\begin{table}[h]
+		\begin{table*}
 			\centering
 			\begin{tabular}{c|r|r}
 				\toprule
@@ -74,14 +98,42 @@ annnd.. i'll fill this in as i get to it.
 			\end{tabular}
 			\label{decision-matrix}
 			\caption{A tabular description of some of the decisions already made.}
-		\end{table}
-\begin{multicols}{2}		
+		\end{table*}
+
 
 \section{Background}
-
-	\subsection{Servers and Satellites}
 	
-	\subsection{The Internet of Things}
+	\subsection{The Internet of Things and Ubiquitous Computing}
+	
+		The internet of things is the concept that everything has a unique identification code and can interact with the world around it.
+		These interactions range from near field communication, barcodes, or ethernet connections.
+		
+		The \href{http://whatis.techtarget.com/definition/Internet-of-Things}{whatis page} provides the following excellent summary:
+		
+		\begin{quote}
+			A thing, in the Internet of Things, can be a person with a heart monitor implant, a farm animal with a biochip transponder, an automobile that has built-in sensors to alert the driver when tire pressure is low -- or any other natural or man-made object that can be assigned an IP address and provided with the ability to transfer data over a network. So far, the Internet of Things has been most closely associated with machine-to-machine (M2M) communication in manufacturing and power, oil and gas utilities. Products built with M2M communication capabilities are often referred to as being smart. (See: smart label, smart meter, smart grid sensor)
+		\end{quote}
+		
+		The beauty of the concept is best described by its creator, Kevin Asthon:
+		
+		\begin{quote}
+			Today computers -- and, therefore, the Internet -- are almost wholly dependent on human beings for information. Nearly all of the roughly 50 petabytes (a petabyte is 1,024 terabytes) of data available on the Internet were first captured and created by human beings by typing, pressing a record button, taking a digital picture or scanning a bar code. 
+			
+			The problem is, people have limited time, attention and accuracy -- all of which means they are not very good at capturing data about things in the real world. If we had computers that knew everything there was to know about things -- using data they gathered without any help from us -- we would be able to track and count everything and greatly reduce waste, loss and cost. We would know when things needed replacing, repairing or recalling and whether they were fresh or past their best.
+		\end{quote}
+		
+		Ubiquitous computing is a closely related concept:
+		\begin{quote}
+			Pervasive computing (also called ubiquitous computing) is the growing trend towards embedding microprocessors in everyday objects so they can communicate information.  The words pervasive and ubiquitous mean "existing everywhere." Pervasive computing devices are completely connected and constantly available. 
+		\end{quote}
+		
+		Computing is already ubiquitous and taken for granted, that is simply a truth in our modern life.
+		You probably have no idea how many embedded processors and computing devices there are in the world around you.
+		Together, these concepts raise some major social issues, the tenderest these days being privacy.
+		
+		Are you willing to risk your privacy in return for protection?
+		You already do in hundreds of ways, it just depends on where you draw the line.
+		I, Calem, am very happy to sacrifice 
 	
 	\subsection{The DIY Hardware Movements}
 
@@ -149,15 +201,12 @@ annnd.. i'll fill this in as i get to it.
 	
 		The house's main controllers (Raspberry Pis) will need to run threads that can manage the signals to and from the appliance boxes. The signals themselves will need either a wired or wireless communication channel. A wired channel will need wiring to connect to the main controllers' general-purpose I/O (GPIO) pins and possibly circuitry for signal refreshing and electromagnetic shielding. A wireless channel will require wireless transceivers for each appliance box. For ease of prototyping, we will use the Spark Core to receive controller input and transmit power usage output wirelessly, and we will use an open-source relay shield for the Spark Core to switch the appliance's "hot" wire (the wire which carries AC power supply voltage) from ground (if the device ought not draw power) or the box's hot wire.
 		
-	
-\end{multicols}
-\begin{figure}[H]
+\begin{figure*}
 	\centering
 	\caption{An Arduino, Raspberry Pi, and Beaglebone from left to right, demonstrating their relative size.  Their absolute size should be inferred by the size of their ports.}
 	\includegraphics[width=.9\textwidth]{gfx/pi-arduino-beaglebone.jpg}
 	\label{fig:pi-arduino-beaglebone}
-\end{figure}
-\begin{multicols}{2}
+\end{figure*}
 	
 	\subsection{Software}
 	
@@ -209,7 +258,7 @@ annnd.. i'll fill this in as i get to it.
 			In any case, they provide an excellent description of their service:
 			
 			\begin{quote}
-				Wit.AI enables developers to add a natural language interface to their app or device in minutes. It’s faster and more accurate than Siri, and requires no upfront investment, expertise, or training dataset.
+				Wit.AI enables developers to add a natural language interface to their app or device in minutes. It's faster and more accurate than Siri, and requires no upfront investment, expertise, or training dataset.
 			\end{quote}
 			
 			It's very simple, really, and very powerful since their AI is constantly improving with hundreds of users.
@@ -235,6 +284,7 @@ annnd.. i'll fill this in as i get to it.
 			I'm seriously considering HyveOS being an expansion on this project and then using the extra time we save to rewrite the entire codebase once with the experience we gain from the first write.
 			
 			This only covers home automation, and does not include more advanced features of HyveOS.
+			
 			\begin{center}
 				\includegraphics[width=.5\textwidth]{gfx/heimcontrol.png}
 			\end{center}
@@ -250,29 +300,80 @@ annnd.. i'll fill this in as i get to it.
 
 			This program allows you to stream a live feed from the RPi Camera module( or USB webcam ) to a webpage (hosted by the Pi) at a respectable FPS (around 15) . The feed can be accessed by any web browser. The program also allows high-defintion video recording, motion dectection and image capturing. This program can be used for home surveillance purposes. There is currently a prototype built complete with web controlled servos which allows for tilt and pan movements.
 
-			\end{multicols}
-			\begin{figure}[H]
+			\begin{figure}
 				\centering
 				\caption{RPi Camera Web Interface Prototype.}
 				\includegraphics[width=.45\textwidth]{gfx/picam.jpg} \includegraphics[width=.45\textwidth]{gfx/picam2.jpg}
-				\includegraphics[width=0.6\textwidth]{gfx/picam3.jpg}
-				\end{figure}
-			\begin{multicols}{2}
+				\includegraphics[width=.45\textwidth]{gfx/picam3.jpg}
+			\end{figure}
 		
+\section{Partners in the Corporate World}
+
+	\subsection{Sensor Stacks}
+	
+		Sensor Stacks is a joint Equipmind and Sensorica initiative to make plug and play sensors with cloud data analysis.
+		Preferably offline analysis would also be available, perhaps with a Node-Webkit App packaged with Python scripts and an interface to the data for easy access via programming languages for advanced analysis.
 		
+	\subsubsection{Sensor Stacks Hardware}
+		
+		Hardware is at this point still a little unclear, but the basic hardware that may be used includes a Raspberry Pi, a set of XBee Pro 60mW Wire Antennas, and Arduino's.
+		
+	\subsubsection{Sensor Stacks Software}		
+			
+		The part of the project which for now pertains more to me includes the software stack behind the hardware.
+		
+		The first important aspect of the software is the primary stack.
+		The database software for this project is TempoDB, a Time Series Database.
+		The following is pulled from the TempoDB website.
+		\begin{quote}
+			TempoDB offers a ReST API to create new series, and read and write data. Every series can be identified by a system generated id or an optional user specified key. 
+			
+			The data model for TempoDB is centered around the concept of a Series. A Series is a sequence of timestamp/value pairs. This sequence of timestamp/value pairs are measurements for a single source of data. For example, a temperature sensor measuring the temperature in a room is modeled by a single Series. A thermostat that measures temperature, humidity, and barometric pressure is modeled by three Series.
+			
+			Metadata attached to the Series is used to relate them. Series can accept a name, a list of tags, and a dictionary of attributes. The name is used to present a human readable display name. The list of tags are used to tag types for the Series. The dictionary allows key/value pairs to be attached to the Series. 
+		\end{quote}
+		Altogether TempoDB seems to be a very convenient method by which to contain data for sensor stacks, all of which will be time dependent.
+		One major concern is that TempoDB is neither open source nor free.
+		Indeed, it is relegated to being an online service, making local analysis and storage impossible.
+			While this database solution may be untenable for a final solution, it will make for an excellent prototyping solution.
+			
+		The next major part of Sensor Stack's software is the framework.
+		Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. 
+		It "uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices."
+		Node.js also has Node-Webkit, which allows for the easy deployment of "native" apps to Windows, Linux, Android, iOS, Macintosh, and Windows Phone.
+			
+		The GUI for the program, being primarily a webapp, will be HTML, CSS, and JavaScript.
+		The more interesting aspect of software is the plotting.
+		The current plotting software of choice is considered to be Rickshaw.js, which is specialised to plotting time series data like the following:
+		\includegraphics[width=.5\textwidth]{gfx/rickshaw.png}
+		While Rickshaw is excellent for plotting time series data, it does not seem well suited to heavier analysis, so another solution may be required, which could be used to visualise "pro" features, such as machine learning and more advanced statistical analysis.
+		
+		A more appropriate plotting library for advanced analysis may be seaborn, which produces significantly more elegant and descriptive plots that can be displayed as pdf, svg, png, etc. like the following:
+		\includegraphics[width=.5\textwidth]{gfx/seaborn.png}
 			
 \section{Strategy}
 
 	\subsection{Behaviour Modification and Working Toward a Better Society}
 			
+		Just having the technology to be greener isn't sufficient, as proven daily across the globe.
+		Apparently it isn't even sufficient for the greener, smarter technology to be cheaper.
+		
+		It is possible that the reason for this isn't so much that people don't care but because these technologies are not made convenient or are blocked by established companies.
+		
 			
 \section{Cost Analysis}
 
 	\subsection{Raspberry Pi Satellites}
 	
+		Each Raspberry Pi Satellite is approximately 100 dollars with a minimal configuration and a camera.
+	
 	\subsection{Server}
 	
+		The server would cost approximately 800 dollars.
+	
 	\subsection{Arduino Automation}
+	
+		Arduino automation cost is thusfar unknown but projected to be under 100 dollars per satellite.
 	
 	\subsection{Load Balancing}
 	
@@ -288,8 +389,7 @@ annnd.. i'll fill this in as i get to it.
 	Hyve's primary endeavour is behaviour modification and a bolder marriage of technology and the home.
 	It is through true integration of and comfort with technology that communities can become closer together.
 	
-	Hyve is designed to both protect the individual, his property, his person, and his privacy, and also to help connect him to his neighbours.
+	Hyve is designed to protect the individual, his property, his person, and his privacy, and also to help connect him to his neighbours.
 	While I expand this paper, this will be further detailed.
 
-\end{multicols}
 \end{document}

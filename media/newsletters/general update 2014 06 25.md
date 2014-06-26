@@ -1,6 +1,11 @@
 This newsletter/update written primarily @calben on 2014 06 25  
 
-# Data Management
+# Partnrships
+
+We're potentially working with Natural Resources Canada (Canmet?) and Senorica to find a location to prototype control models with Sensor Stacc's custom made (somewhat for us) equipment.
+I'll provide more details the moment we have them!
+
+# Data Management and Code
 
 Some solutions have been explored (implemented) for data management, which I will describe starting from frontend going to backend.
 

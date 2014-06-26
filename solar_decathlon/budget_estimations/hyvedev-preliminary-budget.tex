@@ -1,0 +1,47 @@
+\input{E:/git/calben/latex-sleek-templates/letter/sleek-invoice.tex}
+
+\address{}
+\signature{Calem J Bendell}
+\date{\today}
+
+\begin{document}
+	
+  \begin{letter}{}
+    
+    The following is an estimated budget for the automation team for Solar Decathlon.
+    
+    In order to reach the below values we assume the house has one bedroom, one bathroom, one main room, and a kitchen attached to the main room.
+    We assume prototypes pricing which may reduce with slimmer final products.
+    
+    Right now data collection is carried out through existing technologies, namely the Raspberry Pi and Arduino.
+    Sensorica and Equipmind are working on newer, slimmer technologies designed specifically for home automation with this project in mind.
+    
+    I've allocated unknown expenses, such as audio collection, to be 1000 CAD.
+    
+    Regarding flexibility, right now 3 Raspberry Pi's are devoted to the Bedroom and 2 to the kitchen and 6 to the main room.
+    Costs can be cut considerably by removing some of these units, which will include removing cameras and sensors, but this may limit the capabilities of the home.
+    The humidity and temperature sensors can be similarly reduced.
+    
+    \begin{invoice}{CAD}{0}
+      \ProjectTitle{\sffamily Report of Preliminary Budget Estimation}
+      \Fee{Raspberry Pi Units Mainroom} {115} {6}
+      \Fee{Raspberry Pi Units Bedroom} {115} {3}
+      \Fee{Raspberry Pi Units Kitchen} {115} {2}
+      \Fee{Arduino (Spark)} {80} {9}
+      \Fee{Miscellaneous Arduino Parts} {20} {9}
+      \Fee{DHT22 temperature-humidity sensor} {10} {5}
+      \Fee{Spark Power Outlet, Sensors, and Controllers} {60} {10}
+      \Fee{PC Casing} {120} {1}
+      \Fee{PC Motherboard} {160} {1}
+      \Fee{PC Radeon Graphics Processor} {200} {1}
+      \Fee{PC 600-750 W Power Supply (price for 850W)} {140} {1}
+      \Fee{PC FX Central Processor} {200} {1}
+      \Fee{PC 250GB Solid State Drive} {150} {1}
+      \Fee{PC 8GB RAM} {80} {1}
+      \Fee{PC Cooling Units} {50} {1}
+      \Fee{Unknown Expenses in Description} {1} {1000}
+    \end{invoice}
+    
+    \closing{Thanks,}
+  \end{letter}
+\end{document}

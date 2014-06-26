@@ -20,17 +20,30 @@ To view data, there is a new graphing dashboard, Grafana, that is proving to be 
 +		A dude has already made a dropdown menu to choose from one of many Bootswatch themes.  It's the bootswatch theme selector and can be viewed here: http://wdtz.org/bootswatch-theme-selector.html.  Given that Grafana is themed with Bootstrap, it could be cool to add this to Grafana.  Not really necessary... at all, but it would be a nice tweak.
 +		Grafana isn't yet optimised for InfluxDB, which is to say it doesn't entirely support InfluxDB.  If you look at the issues pages for Grafana and InfluxDB, you'll see a couple new issues I've made that start poking into the problems.
 
+<!---
+This is a commment
+- @calben
+--> 
 
 ## InfluxDB
 
 ### Important Features
 
++		Distributed.
++		Time series.
++		Database.
++		... not much else to it really.  Chosen for being new, seemingly reliable, and written by people who *really* know what they're doing.
+
 ### Improvements to Implement
 
++		If we can extend InfluxDB with an optimised time series image database, that would be really awesome.
 
 ## ElasticSearch
 
 ### Important Features
+
++		Mostly using this to support custom dashboards on Grafana.
++		Also supports an incredible number of other features that you can find on the website for Elastic Search.
 
 ### Improvements to Implement
 

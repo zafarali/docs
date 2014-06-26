@@ -1,3 +1,5 @@
+This newsletter/update written primarily @calben on 2014 06 25  
+
 # Data Management
 
 Some solutions have been explored (implemented) for data management, which I will describe starting from frontend going to backend.
@@ -42,7 +44,7 @@ To view data, there is a new graphing dashboard, Grafana, that is proving to be 
 Sensors
 -------
 
-Sensors are still in development by Sensorica with Tactus Technology.
+Sensors are still in development by Sensorica with Tactus Technology.  I'm honestly not entirely sure 
 
 
 Legal

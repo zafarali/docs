@@ -72,11 +72,6 @@ I will be meeting with legal counsel from McGill about the following topics::
 
 1.		Student intellectual property protection for undergraduate research projects.
 2.		Methods of going about the division of property between researching groups, in our case how to ensure HyveDev's stuff can be clearly separated from Canmet, Natural Resources Canada, and Sensorica in our potential join endeavour.
-3.		 
-
-
-
-HyveDev Public Update
-=====================
+3.		Should HyveDev incorporate now?
 
 

@@ -21,6 +21,11 @@ To view data, there is a new graphing dashboard, Grafana, that is proving to be 
 ### Improvements to Implement
 
 +		Grafana is not quite mobile friendly.  I'm working on making the navigation bar work correctly with mobile devices but there are some deeper issues including making charts present correctly on mobile.  We don't necessarily need to be able to edit charts from mobile, but being able to view them perfectly from a phone or tablet seems immensely important to me.
+
+```html
+Zaf: Is there a possibility to render it as an SVG for mobile purposes? 
+```
+
 +		Grafana provides excellent viewing capabilities but no interactive capabilities- no way to send messages to actors.  A panel needs to be built that can run alongside Grafana to send messages to houses.
 +		A dude has already made a dropdown menu to choose from one of many Bootswatch themes.  It's the bootswatch theme selector and can be viewed here: http://wdtz.org/bootswatch-theme-selector.html.  Given that Grafana is themed with Bootstrap, it could be cool to add this to Grafana.  Not really necessary... at all, but it would be a nice tweak.
 +		Grafana isn't yet optimised for InfluxDB, which is to say it doesn't entirely support InfluxDB.  If you look at the issues pages for Grafana and InfluxDB, you'll see a couple new issues I've made that start poking into the problems.
@@ -64,6 +69,9 @@ Sensors
 
 Sensors are still in development by Sensorica with Tactus Technology.  I'm honestly not entirely sure 
 
+```html
+Zaf: I have seen the people at Sensorica and their workspace, they seem really chill and they have some hard core stuff going on. I usually go there every Wednesday evening so if you want me to check out what they are doing in relation to Hyvedev I'll be glad to help!
+```
 
 Legal
 -----

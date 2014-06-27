@@ -1,4 +1,12 @@
+# What It Is
+
+Briefly, HyveDev is a combination of smart home and personal computer.
+Despite services like Nest being considerd the dawn of the "Smart Home," these devices aren't particularly smart.
+Using predictive models of buildings should yield significant benefits, and HyveDev is targeting this along with CanmetENERGY, Sensorica, and Equipmind.
+We also aim to use behavioural modification to encourage reduced costs in homes, such as encouraging a powerful central home computer that can be interfaced from terminals to reduce energy costs and standard water measurement to reduce water cost.
+
 # The Project Plan
+
 
 ##  In the Next Six Months
 
@@ -20,6 +28,12 @@ This could be tied to the Sensor Staccs program at first.
 # Funding
 
 HyveDev needs fairly little funding.
+We should be able to sustain ourselves with small government grants or small contracts for prototype deployment.
+Montreal Solar Decathlon Team will also be purchasing some of the equipment on which services are developed, since some or all of the product will be deployed with the Solar Decathlon Team House.
+
+Should I avoid corporate funding as much as possible until absolutely necessary?
+The current "startup culture" seems to glorify getting immediate funding, but I'd rather get a user base and several deployments of the system first.
+
 
 # Partnerships
 

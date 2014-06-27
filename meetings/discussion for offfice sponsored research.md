@@ -2,10 +2,24 @@
 
 ##  In the Next Six Months
 
+1.  Work with collaborating companies on the Sensor Staccs project to build a set of open source sensors and actuators.
+2.  Rig a room with Sensor Staccs humidity, temperature, pressure, etc. sensors and set up some building automation systems inside the room.  Possible testing sites include Loyola campus, which has a room we can use.
+3.  Set up 4-6 students on undergraduate research projects to develop parts of the project while earning credit and getting a taste for research.
+
 ##  In the Next Year
+
+1.  Sell prototypes of house statistics monitoring system to interest real estate agents and landlords.
+2.  Generate automation
 
 ##  In the Further Future
 
+Sell hardware to accompany a HyveDev platform that can be installed free of charge, excepting the hardware.
+Provide more advanced analytics and services on a premium basis.
+This could be tied to the Sensor Staccs program at first.
+
+# Funding
+
+HyveDev needs fairly little funding.
 
 # Partnerships
 

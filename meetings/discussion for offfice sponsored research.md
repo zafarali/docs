@@ -37,3 +37,11 @@ HyveDev needs fairly little funding.
 # Incorporation
 
 Should we incorporate?
+
+This is a big question for me because I'm not sure what comes with being a corporation in Canada.
+Will it be easier to get grants, should we go for government grants?
+Would it be easier to work with other companies this way?
+
+# Intellectual Property
+
+A significant talking point, but a straightforward one.

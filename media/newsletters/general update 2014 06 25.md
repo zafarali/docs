@@ -23,7 +23,8 @@ To view data, there is a new graphing dashboard, Grafana, that is proving to be 
 +		Grafana is not quite mobile friendly.  I'm working on making the navigation bar work correctly with mobile devices but there are some deeper issues including making charts present correctly on mobile.  We don't necessarily need to be able to edit charts from mobile, but being able to view them perfectly from a phone or tablet seems immensely important to me.
 
 ```html
-Zaf: Is there a possibility to render it as an SVG for mobile purposes? 
+Zaf: Is there a possibility to render it as an SVG for mobile purposes?
+calben: no :'(.  there is a method for png output.  grafana uses flotchart, which is a bit of a pity since Rickshaw is arguably nicer in numerous ways (such as svg output).  we could optionally add rickshaw functionality to grafana, or make our own grafana-like app using rickshaw.  i think we'd reprogram much of this to be a better optimised system for hyvedev 2.0.
 ```
 
 +		Grafana provides excellent viewing capabilities but no interactive capabilities- no way to send messages to actors.  A panel needs to be built that can run alongside Grafana to send messages to houses.

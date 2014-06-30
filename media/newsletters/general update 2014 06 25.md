@@ -1,6 +1,6 @@
 This newsletter/update written primarily @calben on 2014 06 25  
 
-# Partnrships
+# Partnerships
 
 We're potentially working with Natural Resources Canada (Canmet?) and Senorica to find a location to prototype control models with Sensor Stacc's custom made (somewhat for us) equipment.
 I'll provide more details the moment we have them!

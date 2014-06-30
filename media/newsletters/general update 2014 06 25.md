@@ -30,10 +30,6 @@ Zaf: Is there a possibility to render it as an SVG for mobile purposes?
 +		A dude has already made a dropdown menu to choose from one of many Bootswatch themes.  It's the bootswatch theme selector and can be viewed here: http://wdtz.org/bootswatch-theme-selector.html.  Given that Grafana is themed with Bootstrap, it could be cool to add this to Grafana.  Not really necessary... at all, but it would be a nice tweak.
 +		Grafana isn't yet optimised for InfluxDB, which is to say it doesn't entirely support InfluxDB.  If you look at the issues pages for Grafana and InfluxDB, you'll see a couple new issues I've made that start poking into the problems.
 
-````
-This is a commment
-- @calben
-````
 
 ## InfluxDB
 

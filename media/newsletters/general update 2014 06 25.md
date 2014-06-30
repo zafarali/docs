@@ -68,6 +68,7 @@ Sensors are still in development by Sensorica with Tactus Technology.  I'm hones
 
 ```html
 Zaf: I have seen the people at Sensorica and their workspace, they seem really chill and they have some hard core stuff going on. I usually go there every Wednesday evening so if you want me to check out what they are doing in relation to Hyvedev I'll be glad to help!
+calben:  awesome!  at which company do you work around there?  our primary contact with sensorica (my only real contact) is a dude named jonathan, who is super, super chill and the most knowledgable hardware guy i know.
 ```
 
 Legal
